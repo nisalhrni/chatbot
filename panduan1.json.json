@@ -1,0 +1,535 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan",
+        "P",
+        "p",
+        "malem"
+
+      ],
+      "responses": [
+        "Hai! TimahTechBot di sini. Mau tau informasi tentang apa nih?",
+        "Halo! Saya TimahTechBot, salam kenal ya! ada yang bisa saya bantu?",
+        "Helo! Ini TimahTechBot. Lagi butuh informasi apa?"
+      ]
+    },
+    {
+      "tag": "TimahTechBot",
+      "patterns": [
+        "Apa itu TimahTechBot?",
+        "Siapa TimahTechBot?",
+        "TimahTechBot tuh apa?",
+        "TimahTechBot apa itu?",
+        "TimahTechBot itu apa?",
+        "Apa itu TimahTechBot",
+        "Siapa TimahTechBot",
+        "TimahTechBot tuh apa",
+        "TimahTechBot apa itu",
+        "TimahTechBot itu apa"
+      ],
+      "responses": [
+        "TimahTechBot adalah aplikasi chatbot it support yang menyediakan informasi panduan - panduan terkait IT yang dibutuhkan para karyawan"
+      ]
+    },
+    {
+      "tag": "TimahTechBot",
+      "patterns": [
+        "Siapa pembuatmu?",
+        "TimahTechBot, yang buat kamu siapa sih?",
+        "Siapa penciptamu, TimahTechBot?"
+      ],
+      "responses": [
+        "TimahTechBot diciptakan oleh mahasiswa dan mahasiswi dari program Kampus Merdeka yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
+        "Pembuat TimahTechBot dari kalangan mahasiswa dan mahasiswi lho!",
+        "Penciptaku berasal dari seorang mahasiswa yang kreatif, sehingga saya bisa aktif saat ini!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "panduan-zoom1",
+      "patterns": [
+        "Bagaimana join meeting zoom?",
+        "Bagaimana join zoom?",
+        "Bagaimana cara join meeting zoom?",
+        "Bagaimana cara join zoom?",
+        "Bagaimana join zoom meeting?",
+        "Bagaimana cara join zoom meeting?",
+        "Cara sign in di zoom?",
+        "Cara sign in zoom?",
+        "Cara login zoom?",
+        "Cara login di zoom?",
+        "Bagaimana cara sign in di zoom?",
+        "Bagaimana cara sign in zoom?",
+        "Login zoom"
+      ],
+      "responses": [
+        "Menggunakan Aplikasi Zoom Pada Desktop:\n\n1. Buka aplikasi Zoom.\n\n2. Setelah itu akan muncul tampilan dari Join Meeting. Isi Meeting ID (berupa angka) atau Personal Link Name (berupa link). Isi juga di Enter your name, nama yang user gunakan. Setelah semua diisi bisa langsung klik Join.\n\nOptional:\n- User bisa menceklis (klik pada kotak) Remember my name for future meetings agar nama yang user gunakan tidak berubah ketika mengikuti meeting Zoom yang lain.\n- User bisa menceklis (klik pada kotak) Don't connect to audio untuk mematikan suara mic.\n- User bisa menceklis (klik pada kotak) Turn off my video untuk mematikan video.\n\n3. Jika owner yang membuat ruang diskusi menyeting ruang diskusi membutuhkan password, maka akan muncul tampilan gambar Enter meeting passcode. User harus menuliskan password yang telah diberikan. Jika tidak diatur demikian, maka user akan langsung diarahkan masuk ke ruang diskusi.\n\n4. Setelah berhasil masuk ke ruang diskusi Zoom, pilih Join with Computer Audio untuk menghubungkan perangkat suara dan mic pada komputer dengan aplikasi Zoom.\n\n5. Setelah semua selesai, user akan bisa melakukan diskusi di Zoom Meeting."
+        ]},
+    {
+      "tag": "panduan-zoom2",
+      "patterns": [
+        "Cara buat zoom meeting?",
+        "Cara buat room zoom?",
+        "Cara buat zoom meeting di dekstop",
+        "Cara buat room zoom di dekstop",
+        "Cara buat zoom meeting di laptop",
+        "Cara buat room zoom di laptop",
+        "Cara buat zoom meeting di hp",
+        "Cara buat room zoom di hp",
+        "Buat zoom meeting",
+        "Buat room zoom",
+        "Bagaimana cara buat zoom meeting?",
+        "Bagaimana cara buat room zoom?",
+        "Bagaimana cara buat zoom meeting di dekstop?",
+        "Bagaimana cara buat room zoom di dekstop?",
+        "Bagaimana cara buat zoom meeting di laptop?",
+        "Bagaimana cara buat room zoom di laptop?",
+        "Bagaimana cara buat zoom meeting di hp?",
+        "Bagaimana cara buat room zoom di hp?",
+        "Bagaimana cara buat zoom?",
+        "Gimana cara buat zoom?",
+        "Gimana cara buat zoom meeting di dekstop?",
+        "Gimana cara buat zoom di dekstop?",
+        "Gimana cara buat zoom meeting di hp?",
+        "Gimana cara buat zoom di hp?",
+        "Gimana cara buat zoom meeting di laptop?",
+        "Gimana cara buat zoom di laptop?"
+      ],
+      "responses": [
+        "Pembuatan Meeting Zoom :\n\n1. Sign In dengan akun yang dimiliki atau bisa menggunakan akun Google/Facebook/SSO. Jika belum punya akun, harap membuat akun terlebih dahulu dengan mengklik Sign Up.\n\n2. Setelah Sign In, user (host meeting) akan masuk ke tampilan dashboard Zoom. Klik pada icon Schedule untuk membuat meeting terjadwal atau bisa langsung membuat meeting pada saat itu juga dengan mengklik icon New Meeting. Setelah itu, meeting bisa dimulai.\n\n- Untuk meeting yang dijadwalkan, pilih Schedule. Kemudian akan muncul tampilan Schedule Meeting untuk mengatur jadwal meeting. Pengaturan ini terdiri dari nama topik meeting, tanggal dan jam meeting dimulai, durasi meeting, passcode, dan sebagainya. Setelah semuanya di setting, klik Save.\n\n3. Setelah di Save, jadwal meeting akan terlihat. Meeting akan memberikan user notification sebagai pemberitahuan kalau meeting siap dimulai.\n\n4. Optional: Klik tanda panah di sebelah tulisan New Meeting untuk melihat pengaturan membuat meeting langsung.\n\n- Start with video: tampilan user (host meeting) akan terlihat langsung. Jika tidak diceklis, maka tampilan akan berupa icon biasa.\n- Use My Personal Meeting ID (PMI): merupakan angka ID dari user (host meeting) yang digunakan untuk mengundang user lain ke meeting Zoom yang akan dilaksanakan.\n- Copy ID dan Copy Invitation: digunakan untuk mengkopi angka ID dan link invitation dari meeting Zoom.\n- PMI Settings: merupakan pengaturan dari ID user."
+      ]
+    },
+    {
+      "tag": "panduan-zoom3",
+      "patterns": [
+        "Bagaimanan cara merekam zoom?",
+        "Bagaimanan cara merekam zoom meeting?",
+        "Gimana cara merekam zoom?",
+        "Gimana cara merekam zoom meeting?",
+        "Cara merekam zoom",
+        "Cara merekam zoom meeting",
+        "Cara record zoom",
+        "Cara record zoom meeting",
+        "Record zoom",
+        "Record zoom meeting",
+        "Rekam zoom",
+        "Rekam zoom meeting"
+      ],
+      "responses": [
+        "Cara Merekam Meeting Zoom di PC/Laptop:\n\n1. Pertama, user (host meeting) bisa memulai meeting Zoom dengan langsung (New Meeting) atau membuat meeting terjadwal (Schedule).\n\n2. Untuk merekam video meeting secara langsung, user (host meeting) bisa mengklik titik tiga (More) di bagian kanan bawah (minimize) atau icon di bagian maximize. Saat diklik, pilih antara Record on this Computer atau Record to the Cloud. Perbedaannya: \n- Record on this Computer menyimpan rekaman di penyimpanan internal komputer.\n- Record to the Cloud menyimpan rekaman di penyimpanan digital Zoom (Cloud Storage).\n\n3. Setelah memilih Record on this Computer atau klik keyboard Alt+R, tanda recording akan muncul. User bisa menghentikan sementara rekaman (Alt+P) dan memulai kembali dengan mengklik tanda play.\n\n4. Untuk menghentikan rekaman sepenuhnya, klik tanda stop atau tekan Alt+R. Pop up message akan muncul, tetapi hasil rekaman baru akan tersedia setelah meeting Zoom berakhir.\n\n5. Setelah selesai, hasil rekaman akan dikonversi secara otomatis dan tersimpan di folder Zoom di penyimpanan internal.\n\n6. Jika memilih Record to the Cloud (Alt+C), tanda recording akan muncul di kiri atas. User bisa menghentikan sementara (Alt+P) dan melanjutkan lagi rekaman dengan mengklik tanda play.\n\n7. Untuk menghentikan sepenuhnya rekaman di Cloud, klik tanda stop atau tekan Alt+R. Hasil rekaman akan tersedia setelah meeting Zoom berakhir."
+      ]
+    },
+    {
+      "tag": "panduan-zoom4",
+      "patterns": [
+        "Kasih  co host ke user lain",
+        "Kasih  co host ke orang lain",
+        "Cara kasih  co host ke user lain",
+        "Cara kasih  co host ke orang lain",
+        "Ngasih  co host ke user lain",
+        "Ngasih  co host ke orang lain",
+        "Memberikan  co host ke user lain",
+        "Memberikan  co host ke orang lain",
+        "Cara menjadikan peserta co-Host di Zoom?",
+        "Cara menjadikan peserta co-Host?",
+        "Cara memberikan  co host ke user lain",
+        "Cara memberikan  co host ke orang lain",
+        "Bagaimana cara memberikan  co host ke user lain",
+        "Bagaimana cara memberikan  co host ke orang lain",
+        "Gimana cara memberikan  co host ke user lain",
+        "Gimana cara memberikan  co host ke orang lain",
+        "Co host zoom"
+      ],
+      "responses": [
+       "Cara Memberikan Akses Co-Host di Zoom:\n\n1. Pastikan user (host meeting) sudah mempunyai akun Zoom berbayar.\n\n2. Klik icon Participants untuk melihat daftar peserta meeting.\n\n3. Arahkan kursor ke nama peserta yang ingin dijadikan Co-Host dan klik More. Pilih opsi Make Co-host.\n\n4. Tanda Co-host akan muncul di sebelah nama peserta yang dipilih.\n\n"
+     ]
+    },
+    {
+      "tag": "panduan-zoom5",
+      "patterns": [
+        "Cara membuat polling di zoom",
+        "Bagaimana cara membuat polling di zoom",
+        "Polling zoom",
+        "Polling di zoom",
+        "Poll di zoom",
+        "Cara membuat poll di zoom",
+        "Bagaimana cara membuat poll di zoom",
+        "Poll zoom",
+        "Cara polling di zoom"
+      ],
+      "responses": [
+        "Cara Membuat Polling di Zoom:\n\n1. Pertama, user (host meeting) klik icon Poll pada navigasi bar di bagian bawah layar Zoom.\n\n2. Setelah itu akan muncul tampilan pop up. Klik tombol Create.\n\n3. User (host meeting) akan diarahkan ke browser untuk membuat polling. Di sini user bisa membuat pertanyaan dan menuliskan jawaban (Single Choice atau Multiple Choice). Tambah pertanyaan dengan Add Questions, hapus pertanyaan dengan icon delete, atau duplikasi pertanyaan yang telah dibuat.\n\n- Jika ingin jawaban peserta bersifat anonim, klik titik tiga dan pilih Allow participants to answer questions anonymously.\n\n4. Setelah selesai mengatur polling, klik tombol Save. User masih bisa mengedit polling dengan mengklik Edit Poll di pojok kiri bawah. Klik tombol Launch untuk menyebarkan polling ke peserta meeting.\n\n5. Peserta akan mengisi polling dalam waktu yang ditentukan oleh host. Setelah pengisian selesai, klik tombol End Poll untuk menghentikan polling.\n\n6. Setelah polling selesai, host bisa melihat hasilnya. Klik titik tiga di pojok bawah untuk Re-launch Poll, Download Result, atau View Results from Browser. Host juga bisa membagikan hasil polling dengan mengklik tombol Share Results."
+      ]
+    },
+    {
+      "tag": "panduan-zoom6",
+      "patterns": [
+        "Bagaimana cara menggunakan fitur Share Screen di Zoom?",
+        "Cara berbagi layar di Zoom?",
+        "Bagaimana cara share screen di Zoom meeting?",
+        "Bagaimana cara share screen di Zoom?",
+        "Cara menggunakan share screen di Zoom?",
+        "Gimana cara berbagi layar di Zoom?",
+        "Gimana cara share screen di Zoom meeting?",
+        "Gimana cara share screen di Zoom?",
+        "Gimana menggunakan share screen di Zoom?",
+        "Share screen zoom",
+        "Berbagi layar di Zoom?",
+        "Share screen di zoom"
+      ],
+      "responses": [
+        "Cara Menggunakan Fitur Share Screen di Zoom:\n\nTerdapat dua cara untuk melakukan Share Screen, yaitu secara langsung sebelum meeting dan saat meeting sedang berlangsung.\n\nCara Share Screen Secara Langsung:\n\n1. Pertama, user harus Sign In Zoom.\n\n2. Pada tampilan awal, pilih Share Screen.\n\n3. Zoom akan meminta user untuk memasukkan Sharing Key atau Meeting ID. Setelah itu, user akan berbagi tampilan layar dengan user lain dalam meeting tersebut.\n\nCara Share Screen Saat Meeting Berlangsung:\n\n1. Masuk ke dalam meeting yang sedang berlangsung.\n\n2. Persiapkan tampilan yang ingin user bagikan di desktop, lalu klik icon Share Screen.\n\n3. Setelah itu, akan muncul pilihan: Basic, Advanced, atau Files. Pilih sesuai kebutuhan dan klik Share.\n\n4. Untuk menghentikan Share Screen, klik Stop Share.\n\n5. Jika ingin berbagi tampilan lain, klik icon New Share. User juga bisa menghentikan sementara dengan mengklik icon Pause Share."
+      ]
+    },
+    {
+      "tag": "panduan-zoom7",
+      "patterns": [
+        "Cara schedule meeting zoom ",
+        "Cara menjadwalkan meeting di zoom?",
+        "Bagaimana cara membuat jadwal meeting di zoom?",
+        "Bagaimana cara menjadwalkan meeting zoom",
+        "Gimana cara schedule meeting zoom ",
+        "Gimana cara menjadwalkan meeting di zoom?",
+        "Gimana cara membuat jadwal meeting di zoom?",
+        "Membuat jadwal meeting di zoom",
+        "Membuat schedule meeting di zoom",
+        "Membuat jadwal meeting zoom",
+        "Membuat schedule meeting zoom",
+        "Gimana cara menjadwalkan meeting zoom"
+      ],
+      "responses": [
+        "Cara Menjadwalkan Meeting Zoom Melalui Website:\n\n1. Pertama, user harus Sign In di website Zoom di https://zoom.us/signin.\n\n2. Setelah itu, lihat jadwal meeting di bagian Meetings di navigasi bar sebelah kiri. Klik Schedule a Meeting di sebelah kanan atau langsung klik Schedule Meeting di bar atas.\n\n3. Di halaman Schedule Meeting, akan muncul form yang harus diisi.\n\n4. Isi form tersebut sebagai berikut:\n   a. **Topic**: Tulis topik meeting.\n   - **Add Description** (optional): Tuliskan penjelasan tambahan terkait meeting, seperti tugas yang harus dibawa.\n   b. **When**: Tentukan waktu kapan meeting dimulai (tanggal dan jam).\n   c. **Duration**: Tentukan lamanya meeting. Meeting akan otomatis berakhir setelah durasi yang ditentukan.\n   d. **Timezone**: Zona waktu dari jam meeting, biasanya sudah diatur secara default.\n   - **Recurring meeting** (optional): Aktifkan untuk mengatur meeting berulang berdasarkan waktu yang ditentukan (Daily, Weekly, Monthly, atau No Fixed Time).\n   e. **Registration** (optional): Aktifkan jika peserta harus mendaftar sebelum mengikuti meeting.\n   f. **Meeting ID**: Pilih antara meeting ID yang dibuat secara acak atau meeting ID personal.\n   g. **Template**: Gunakan format meeting yang telah disimpan sebelumnya.\n   h. **Security**: Atur pengaturan keamanan meeting.\n   i. **Video**: Atur tampilan video untuk host dan peserta.\n   j. **Audio**: Atur suara untuk host dan peserta; bisa menggunakan telepon, audio dari komputer, atau keduanya.\n   k. **Options** (optional): Atur pengaturan tambahan untuk meeting.\n\n5. Setelah semua informasi diisi dan diatur, klik tombol Save."
+      ]
+    },
+    {
+      "tag": "persyaratan_studi_independen",
+      "patterns": [
+        "Apa saja persyaratan Studi Independen?"
+      ],
+      "responses": [
+        "Tidak ada persyaratan khusus. Seluruh mahasiswa dari perguruan tinggi dan program studi apapun dapat mengikuti program sesuai persyaratan setiap mitra"
+      ]
+    },
+    {
+      "tag": "periode_dan_pendaftaran_studi_independen",
+      "patterns": [
+        "Bagaimana periode pelaksanaan dan cara mendaftar program Studi Independen?"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 hingga 2 semester. Cara mendaftarnya dengan mengunjungi laman https://kampusmerdeka.kemdikbud.go.id/program/studi-independen"
+      ]
+    },
+    {
+      "tag": "manfaat_studi_independen",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti Studi Independen?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi hingga 20 SKS, dapat melakukan program sertifikasi yang diakui Kemendikbudristek selama 1-2 semester, biaya partisipasi serta biaya hidup, dan sertifikat sertifikasi atau short course"
+      ]
+    },
+    {
+      "tag": "mitra_studi_independen",
+      "patterns": [
+        "Apa saja mitra yang tergabung dalam Studi Independen?"
+      ],
+      "responses": [
+        "Mitra yang tergabung seperti Orbit Future Academy, Microsoft Indonesia, Ruang Guru, Zenius, dsb. Info lebih lanjut melalui laman https://kampusmerdeka.kemdikbud.go.id/program/studi-independen/browse"
+      ]
+    },
+    {
+      "tag": "penjelasan_magang",
+      "patterns": [
+        "Apa itu Magang Bersertifikat?"
+      ],
+      "responses": [
+        "Salah satu program Kampus Merdeka Kemendikbud yang bertujuan untuk memberikan kesempatan kepada mahasiswa mendapatkan pengalaman kerja di industri/dunia profesi nyata untuk mendapatkan hard skills maupun soft skills."
+      ]
+    },
+    {
+      "tag": "persyaratan_magang",
+      "patterns": [
+        "Apa saja persyaratan Magang Bersertifikat?"
+      ],
+      "responses": [
+        "Tidak ada persyaratan khusus. Seluruh mahasiswa dari perguruan tinggi dan program studi apapun dapat mengikuti program sesuai persyaratan setiap mitra"
+      ]
+    },
+    {
+      "tag": "periode_dan_pendaftaran_magang",
+      "patterns": [
+        "Bagaimana periode pelaksanaan dan cara mendaftar program Magang Bersertifikat?"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 hingga 3 semester. Cara mendaftarnya dengan mengunjungi laman https://kampusmerdeka.kemdikbud.go.id/program/magang"
+      ]
+    },
+    {
+      "tag": "manfaat_magang",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti Magang Bersertifikat?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi hingga 20 sks, dibimbing mentor staf profesional secara full-time, sertifikasi sesuai kinerja, dan uang saku serta biaya hidup selama magang"
+      ]
+    },
+    {
+      "tag": "mitra_magang",
+      "patterns": [
+        "Apa saja mitra yang tergabung dalam Magang Bersertifikat?"
+      ],
+      "responses": [
+        "Mitra yang tergabung seperti Telkom Indonesia, XL Axiata, MAP, Bank BRI, Shopee, Tokopedia, Traveloka, dsb. Info lebih lanjut melalui laman https://kampusmerdeka.kemdikbud.go.id/program/magang/browse"
+      ]
+    },
+    {
+      "tag": "penjelasan_kampus_mengajar",
+      "patterns": [
+        "Apa itu Kampus Mengajar?"
+      ],
+      "responses": [
+        "Salah satu program Kampus Merdeka Kemendikbud berbentuk kegiatan pembelajaran oleh mahasiswa yang memiliki minat dalam memperdalam ilmunya serta membantu meningkatkan pemerataan kualitas pendidikan. Sekolah tempat praktek mengajar dapat berada di lokasi kota maupun di daerah terpencil"
+      ]
+    },
+    {
+      "tag": "persyaratan_kampus_mengajar",
+      "patterns": [
+        "Apa saja persyaratan Kampus Mengajar?"
+      ],
+      "responses": [
+        "Merupakan mahasiswa aktif semester 4, memiliki IPK minimum 3.00, memiliki pengalaman mengajar maupun berorganisasi, memperoleh surat rekomendasi dari Perguruan tinggi, serta belum pernah mengikuti program Kampus Mengajar"
+      ]
+    },
+    {
+      "tag": "periode_dan_pendaftaran_kampus_mengajar",
+      "patterns": [
+        "Bagaimana periode pelaksanaan dan cara mendaftar program Kampus Mengajar?"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 semester. Cara mendaftarnya dengan mengunjungi laman https://kampusmerdeka.kemdikbud.go.id/program/mengajar"
+      ]
+    },
+    {
+      "tag": "manfaat_kampus_mengajar",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti Kampus Mengajar?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu mendapatkan bantuan biaya hidup serta UKT (bagi yang tidak sedang menerima bantuan pemerintah lainnya), mengasah kepemimpinan, kreativitas, pemecahan masalah, inovasi, serta terlibat langsung dalam pembelajaran di jenjang SD dan SMP"
+      ]
+    },
+    {
+      "tag": "penjelasan_IISMA",
+      "patterns": [
+        "Apa itu IISMA?"
+      ],
+      "responses": [
+        "IISMA adalah singkatan dari Indonesian International Student Mobility Awards. Salah satu program Kampus Merdeka Kemendikbud berupa skema beasiswa dari Pemerintah Indonesia untuk mendanai siswa dalam program mobilitas ke universitas terkemuka di luar negeri"
+      ]
+    },
+    {
+      "tag": "persyaratan_IISMA",
+      "patterns": [
+        "Apa saja persyaratan IISMA?"
+      ],
+      "responses": [
+        "Merupakan mahasiswa aktif semester 4 hingga 6, maksimal berumur 23 tahun, memiliki IPK minimal 3.00, memiliki score IELTS - 6.0, TOEFL iBT - 78, Duolingo English Test - 100, mendapatkan surat rekomendasi Perguruan Tinggi, serta belum pernah mengikuti program IISMA maupun beasiswa LPDP"
+      ]
+    },
+    {
+      "tag": "periode_dan_pendaftaran_IISMA",
+      "patterns": [
+        "Bagaimana periode pelaksanaan dan cara mendaftar program IISMA?"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 semester. Cara mendaftarnya dengan mengunjungi laman https://kampusmerdeka.kemdikbud.go.id/km/IISMA/landing.html"
+      ]
+    },
+    {
+      "tag": "manfaat_IISMA",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti IISMA?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, bantuan biaya pendaftaran, pendidikan, serta biaya hidup selama 1 semester, test PCR, karantina, visa, transport, dan asuransi kesehatan"
+      ]
+    },
+    {
+      "tag": "mitra_IISMA",
+      "patterns": [
+        "Apa saja universitas yang tergabung dalam program IISMA?"
+      ],
+      "responses": [
+        "Universitas yang tergabung seperti Boston University, Monash University, Nanyang University, University of Birmingham, dsb. Info lebih lanjut melalui laman https://site.iisma.id/host-universities-list"
+      ]
+    },
+    {
+      "tag": "penjelasan_pertukaran_mahasiswa",
+      "patterns": [
+        "Apa itu Pertukaran Mahasiswa Merdeka?"
+      ],
+      "responses": [
+        "Pertukaran Mahasiswa Merdeka merupakan pertukaran pelajar dengan program studi yang sama ke Perguruan Tinggi berbeda maupun pertukaran pelajar dengan program studi berbeda ke Perguruan Tinggi berbeda. Kegiatan pembelajaran dapat secara tatap muka atau daring. Program ini bertujuan untuk memperkaya pengalaman dan konteks keilmuan mahasiswa"
+      ]
+    },
+    {
+      "tag": "persyaratan_pertukaran_mahasiswa",
+      "patterns": [
+        "Apa saja persyaratan Pertukaran Mahasiswa Merdeka?"
+      ],
+      "responses": [
+        "Merupakan mahasiswa aktif semester 3, 5, dan 7, memiliki IPK minimal 2.75, memiliki pengalaman prestasi non-akademik tingkat daerah/nasional/internasional, tidak pernah dikenakan sanksi akademik maupun non-akademik, serta mendapatkan surat rekomendasi dari Perguruan Tinggi dan izin orang tua"
+      ]
+    },
+    {
+      "tag": "periode_dan_pendaftaran_pertukaran_mahasiswa",
+      "patterns": [
+        "Bagaimana periode pelaksanaan dan cara mendaftar program Pertukaran Mahasiswa Merdeka?"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 semester. Cara mendaftarnya dengan mengunjungi laman https://kampusmerdeka.kemdikbud.go.id/web/pertukaranMahasiswaMerdeka2021"
+      ]
+    },
+    {
+      "tag": "manfaat_pertukaran_mahasiswa",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti Pertukaran Mahasiswa Merdeka?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, bantuan biaya hidup dan UKT, transport pulang-pergi ke kampus tujuan, dan biaya rapid pulang-pergi"
+      ]
+    },
+    {
+      "tag": "penjelasan_pejuang_muda",
+      "patterns": [
+        "Apa itu Pejuang Muda?"
+      ],
+      "responses": [
+        "Pejuang Muda adalah laboratorium sosial mahasiswa yang berkolaborasi dengan Kementerian Sosial untuk merancang digital campaign dan mengeksekusi program sosial yang relevan untuk membuat perubahan nyata di masyarakat "
+      ]
+    },
+    {
+      "tag": "persyaratan_pejuang_muda",
+      "patterns": [
+        "Apa saja persyaratan Pejuang Muda?"
+      ],
+      "responses": [
+        "Merupakan mahasiswa aktif minimal semester 5, memiliki IPK minimal 2.75, memiliki pengalaman organisasi, mampu bekerjasama dan berkomunikasi dengan baik, serta siap untuk ditempatkan di seluruh lokasi Indonesia"
+      ]
+    },
+    {
+      "tag": "periode_dan_pendaftaran_pejuang_muda",
+      "patterns": [
+        "Bagaimana periode pelaksanaan dan cara mendaftar program Pejuang Muda?"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 semester. Cara mendaftarnya dengan mengunjungi laman https://pejuangmuda.kemensos.go.id/"
+      ]
+    },
+    {
+      "tag": "manfaat_pejuang_muda",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti Pejuang Muda?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, pendampingan langsung dengan Kemensos, mentoring eksklusif, atribut, uang saku, biaya transport, dan anggaran hibah"
+      ]
+    },
+    {
+      "tag": "penjelasan_PMMB",
+      "patterns": [
+        "Apa itu PMMB?"
+      ],
+      "responses": [
+        "PMMB adalah singkatan dari Program Magang Mahasiswa Bersertifikat. PMMB adalah program dari FHCI yang bekerja sama dengan BUMN yang memberi kesempatan kepada mahasiswa untuk menyalurkan potensi dan menggali pengalaman di BUMN"
+      ]
+    },
+    {
+      "tag": "persyaratan_IISMA",
+      "patterns": [
+        "Apa saja persyaratan IISMA?"
+      ],
+      "responses": [
+        "Merupakan mahasiswa aktif semester 5, memiliki IPK minimal 2.75, mendapatkan izin dari dosen wali dan kaprodi, bersedia ditempatkan di perusahaan yang sudah terdaftar di FHCI"
+      ]
+    },
+    {
+      "tag": "periode_dan_pendaftaran_PMMB",
+      "patterns": [
+        "Bagaimana periode pelaksanaan dan cara mendaftar program PMMB?"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 semester. Cara mendaftarnya dengan mengunjungi website FHCI BUMN atau instagram @fhci.bumn"
+      ]
+    },
+    {
+      "tag": "manfaat_PMMB",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti PMMB?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, mendapatkan sertifikat industri, mengenal dunia kerja, serta uang saku"
+      ]
+    },
+    {
+      "tag": "mitra_PMMB",
+      "patterns": [
+        "Apa saja universitas yang tergabung dalam program PMMB?"
+      ],
+      "responses": [
+        "Mitra yang tergabung seperti Pertamina, Bank BRI, PT. KBN, dsb. Info lebih lanjut melalui website FHCI BUMN atau instagram @fhci.bumn"
+      ]
+    }
+  ]
+}
